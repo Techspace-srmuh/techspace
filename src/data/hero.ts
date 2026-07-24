@@ -12,9 +12,9 @@ export const heroData = {
     href: "#domains",
   },
   stats: [
-    { label: "Community", value: "200+" },
-    { label: "Members", value: "15" },
-    { label: "Events", value: "3" },
-    { label: "Workshops", value: "3" },
+    { value: "100+", label: "Community Members" },
+    { value: "8", label: "Core Team" },
+    { value: "3", label: "Events Hosted" },
+    { value: "3", label: "Workshops Conducted" },
   ],
 };

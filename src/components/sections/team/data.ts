@@ -36,8 +36,8 @@ export const teamMembers: TeamMember[] = [
   },
 
   {
-    id: "anjali",
-    name: "Anjali",
+    id: "anjli",
+    name: "Anjli",
     role: "President",
     focusArea: "Leadership & Community Building",
     image: "/team/anjali_pic.png",
@@ -94,7 +94,7 @@ export const teamMembers: TeamMember[] = [
   {
     id: "harsh-wardhan",
     name: "Harsh Wardhan",
-    role: "Member",
+    role: "Mentor",
     focusArea: "Full-Stack Development & Software Engineering",
     image: "/team/harsh_pic.png",
     intro:
@@ -118,7 +118,7 @@ export const teamMembers: TeamMember[] = [
   {
     id: "aryan-tailor",
     name: "Aryan Tailor",
-    role: "Member",
+    role: "Mentor",
     focusArea: "AI/ML",
     image: "team/aryantailor_pic.png",
     intro:
@@ -139,7 +139,7 @@ export const teamMembers: TeamMember[] = [
   {
     id: "tathagat-aryan",
     name: "Tathagat Aryan",
-    role: "Member",
+    role: "Mentor",
     focusArea: "Full-Stack Development",
     image: "team/tathagat_pic.png",
     intro:
