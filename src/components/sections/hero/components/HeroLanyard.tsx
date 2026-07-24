@@ -25,8 +25,8 @@ export function HeroLanyard() {
         fov={15.4}
         model="/hero/card.glb"
         bandTexture="/hero/lanyard_img.png"
-        frontImage="/hero/lanyard_img.png"
-        backImage="/hero/lanyard_img.png"
+        frontImage="/hero/member-card-front.svg"
+        backImage="/hero/member-card-front.svg"
         lanyardImage="/hero/lanyard-band.svg"
         lanyardWidth={1.375}
       />

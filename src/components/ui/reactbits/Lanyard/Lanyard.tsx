@@ -44,7 +44,7 @@ export default function Lanyard({
   model = "/hero/card.glb",
   bandTexture = "/hero/lanyard.png"
 }: any) {
-  const [isMobile, setIsMobile] = useState(() => 
+  const [isMobile, setIsMobile] = useState(() =>
     typeof window !== 'undefined' ? window.innerWidth < 768 : false
   );
 
@@ -137,7 +137,7 @@ function Band({
   const segmentProps = { type: 'dynamic', canSleep: true, colliders: false, angularDamping: 4, linearDamping: 4 };
   const { nodes, materials } = useGLTF(model) as any;
   const texture = useTexture(lanyardImage || bandTexture);
-  
+
   // useTexture must be called unconditionally; use a blank pixel when an image
   // isn't supplied for a given face, then skip compositing it below.
   const frontTex = useTexture(frontImage || BLANK_PIXEL);
@@ -189,7 +189,7 @@ function Band({
     composite.needsUpdate = true;
     return composite;
   }, [frontImage, backImage, imageFit, frontTex, backTex, materials.base.map]);
-  
+
   // Cleanup texture to prevent WebGL memory leaks
   useEffect(() => {
     return () => {
