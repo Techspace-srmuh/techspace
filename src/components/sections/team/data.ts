@@ -92,6 +92,50 @@ export const teamMembers: TeamMember[] = [
     linkedinUrl: "https://www.linkedin.com/in/khushbu-chauhan-076b4329a"
   },
   {
+    id: "aryan-tyagi",
+    name: "Aryan Tyagi",
+    role: "Promotional Head",
+    focusArea: "Full-Stack Development, AI & Community Outreach",
+    image: "/team/aryantyagi_pic.png",
+    intro:
+      "Full-stack developer passionate about building modern web applications and leveraging AI while driving TechSpace's outreach through creative campaigns and impactful community engagement.",
+    technologies: [
+      "React",
+      "Next.js",
+      "Node.js",
+      "MongoDB",
+      "Python",
+      "TensorFlow",
+      "Tailwind CSS",
+      "Three.js",
+      "Firebase",
+      "Gemini API"
+    ],
+    portfolioUrl: "https://aryantyagi.in/",
+    linkedinUrl: "https://www.linkedin.com/in/aryan-tyagi-6b3190330/",
+    githubUrl: "https://github.com/aryann-tyagi",
+    favoriteStack: "Next.js + Tailwind CSS + Firebase",
+    currentlyLearning: "Advanced AI, TensorFlow & Growth Marketing"
+  },
+  {
+    id: "aman-yadav",
+    name: "Aman Kumar Yadav",
+    role: "Designer",
+    focusArea: "UI/UX Design & Visual Branding",
+    image: "/team/aman_yadav_pic.png",
+    intro:
+      "I design clean, engaging, and user-focused visuals that help bring TechSpace's ideas and identity to life.",
+    tagsTitle: "Skills",
+    tags: [
+      "UI/UX Design",
+      "Graphic Design",
+      "Brand Identity",
+      "Figma"
+    ],
+    githubUrl: "https://github.com/amanyadav2311",
+    linkedinUrl: "https://www.linkedin.com/in/aman-kumar-yadav-064b6338a/"
+  },
+  {
     id: "harsh-wardhan",
     name: "Harsh Wardhan",
     role: "Mentor",
@@ -159,24 +203,8 @@ export const teamMembers: TeamMember[] = [
     linkedinUrl: "https://www.linkedin.com/in/tathagat-aryan-4993a1286",
     favoriteStack: "MERN",
     currentlyLearning: "MongoDB",
-  },
-  {
-    id: "aman-yadav",
-    name: "Aman Kumar Yadav",
-    role: "Designer",
-    focusArea: "UI/UX Design & Visual Branding",
-    image: "/team/aman_yadav_pic.png",
-    intro:
-      "I design clean, engaging, and user-focused visuals that help bring TechSpace's ideas and identity to life.",
-    tagsTitle: "Skills",
-    tags: [
-      "UI/UX Design",
-      "Graphic Design",
-      "Brand Identity",
-      "Figma"
-    ],
-    githubUrl: "https://github.com/amanyadav2311",
-    linkedinUrl: "https://www.linkedin.com/in/aman-kumar-yadav-064b6338a/"
   }
+
+
 
 ];
