@@ -7,12 +7,12 @@ export interface NavItem {
 
 export const mainNav: NavItem[] = [
   { title: "Home", href: "#hero" },
-  { title: "What We Do", href: "#what-we-do" },
+  // { title: "What We Do", href: "#what-we-do" },
   { title: "Domains", href: "#domains" },
   { title: "Why Join", href: "#why-join" },
   { title: "Team", href: "#team" },
   { title: "Events", href: "#events" },
-  { title: "Upcoming", href: "#upcoming" },
+  // { title: "Upcoming", href: "#upcoming" },
   { title: "Gallery", href: "#gallery" },
   { title: "Journey", href: "#journey" },
 ];

@@ -1,10 +1,10 @@
 import HeroSection from "@/components/sections/hero/HeroSection";
-import WhatWeDoSection from "@/components/sections/what-we-do/WhatWeDoSection";
+
 import DomainsSection from "@/components/sections/domains/DomainsSection";
 import WhyJoinSection from "@/components/sections/why-join/WhyJoinSection";
 import TeamSection from "@/components/sections/team/TeamSection";
 import EventsSection from "@/components/sections/events/EventsSection";
-import UpcomingSection from "@/components/sections/upcoming/UpcomingSection";
+
 import GallerySection from "@/components/sections/gallery/GallerySection";
 import JourneySection from "@/components/sections/journey/JourneySection";
 import JoinSection from "@/components/sections/join/JoinSection";
@@ -19,12 +19,12 @@ export default function Home() {
       <SplashScreen />
       <Navbar />
       <HeroSection />
-      <WhatWeDoSection />
+      {/* <WhatWeDoSection /> */}
       <DomainsSection />
       <WhyJoinSection />
       <TeamSection />
       <EventsSection />
-      <UpcomingSection />
+      {/* <UpcomingSection /> */}
       <GallerySection />
       <JourneySection />
       <JoinSection />
