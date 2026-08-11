@@ -105,11 +105,8 @@ export const teamMembers: TeamMember[] = [
       "Node.js",
       "MongoDB",
       "Python",
-      "TensorFlow",
-      "Tailwind CSS",
-      "Three.js",
-      "Firebase",
-      "Gemini API"
+      "Tailwind CSS"
+
     ],
     portfolioUrl: "https://aryantyagi.in/",
     linkedinUrl: "https://www.linkedin.com/in/aryan-tyagi-6b3190330/",
@@ -199,6 +196,7 @@ export const teamMembers: TeamMember[] = [
       "C++",
       "GitHub"
     ],
+    portfolioUrl: "https://portfolio-ary230.vercel.app/",
     githubUrl: "https://github.com/Aryan689t",
     linkedinUrl: "https://www.linkedin.com/in/tathagat-aryan-4993a1286",
     favoriteStack: "MERN",
