@@ -64,51 +64,46 @@ export default function Navbar() {
 
         {/* Mobile Navigation Header & Drawer */}
         <MobileNav>
-          <MobileNavHeader className="px-4 py-2 bg-[#0A0A0F]/90 backdrop-blur-xl border border-white/10 rounded-full my-2">
-            <Link href="/" onClick={() => setIsMobileMenuOpen(false)} className="flex items-center">
-              <Brand size="sm" variant="full" />
-            </Link>
-            <div className="flex items-center gap-2">
-              <button
-                onClick={openJoinModal}
-                className="px-3 py-1.5 rounded-full bg-sky-500/20 border border-sky-500/30 text-sky-300 text-xs font-semibold"
-              >
-                Join
-              </button>
-              <MobileNavToggle
-                isOpen={isMobileMenuOpen}
-                onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-              />
-            </div>
+          <MobileNavHeader>
+            <MobileNavToggle
+              isOpen={isMobileMenuOpen}
+              onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+            />
           </MobileNavHeader>
 
           <MobileNavMenu
             isOpen={isMobileMenuOpen}
             onClose={() => setIsMobileMenuOpen(false)}
-            className="top-16 p-6 bg-[#0A0A0F]/98 border border-white/15 backdrop-blur-2xl rounded-2xl shadow-[0_20px_50px_rgba(0,0,0,0.9)] space-y-2 max-h-[85vh] overflow-y-auto"
           >
-            <div className="text-[10px] font-mono font-bold tracking-widest text-neutral-500 uppercase px-3 pb-1">
-              NAVIGATION
+            <div className="w-full flex items-center justify-between pb-2 border-b border-white/10">
+              <div className="text-[10px] font-mono font-bold tracking-widest text-neutral-400 uppercase">
+                NAVIGATION
+              </div>
+              <span className="text-xs text-neutral-500 font-mono">TechSpace</span>
             </div>
-            {items.map((item, idx) => (
-              <a
-                key={`mobile-link-${idx}`}
-                href={item.link}
-                onClick={() => setIsMobileMenuOpen(false)}
-                className="flex items-center justify-between min-h-[48px] px-3.5 py-2.5 rounded-xl text-sm font-semibold text-neutral-300 hover:text-white hover:bg-white/5 active:bg-white/10 transition-all duration-200"
-              >
-                <span>{item.name}</span>
-                <span className="text-neutral-600 text-xs font-mono">→</span>
-              </a>
-            ))}
 
-            <div className="pt-4 border-t border-neutral-800/80">
+            <div className="w-full space-y-1 py-1">
+              {items.map((item, idx) => (
+                <a
+                  key={`mobile-link-${idx}`}
+                  href={item.link}
+                  onClick={() => setIsMobileMenuOpen(false)}
+                  className="flex items-center justify-between min-h-[48px] px-3.5 py-2.5 rounded-xl text-sm font-semibold text-neutral-300 hover:text-white hover:bg-white/5 active:bg-white/10 transition-all duration-200"
+                >
+                  <span>{item.name}</span>
+                  <span className="text-neutral-500 text-xs font-mono">→</span>
+                </a>
+              ))}
+            </div>
+
+            <div className="w-full pt-3 border-t border-white/10">
               <button
+                type="button"
                 onClick={() => {
                   setIsMobileMenuOpen(false);
                   openJoinModal();
                 }}
-                className="w-full min-h-[48px] py-3 px-4 rounded-xl bg-white text-black font-bold text-sm shadow-xl flex items-center justify-center gap-2 active:scale-[0.98] transition-transform"
+                className="w-full min-h-[48px] py-3 px-4 rounded-xl bg-white text-black font-bold text-sm shadow-xl flex items-center justify-center gap-2 hover:bg-neutral-200 active:scale-[0.98] transition-all cursor-pointer"
               >
                 <span>{ctaNav.title}</span>
               </button>
