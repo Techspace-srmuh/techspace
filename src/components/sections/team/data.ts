@@ -36,9 +36,9 @@ export const teamMembers: TeamMember[] = [
   },
 
   {
-    id: "anjli",
-    name: "Anjli",
-    role: "President",
+    id: "anjali-thakur",
+    name: "Anjali Thakur",
+    role: "President & Documentation & Reporting Lead",
     focusArea: "Leadership & Community Building",
     image: "/team/anjali_pic.png",
     intro:
@@ -56,7 +56,7 @@ export const teamMembers: TeamMember[] = [
   {
     id: "aryan-arya",
     name: "Aryan Arya",
-    role: "Vice President",
+    role: "Vice President/Co-Lead",
     focusArea: "AI/ML, Full-Stack",
     image: "/team/aryanarya_pic.png",
     intro:
@@ -73,69 +73,9 @@ export const teamMembers: TeamMember[] = [
     linkedinUrl: "https://www.linkedin.com/in/aryan-kumar-0a54aa2a5/",
   },
   {
-    id: "khushbu-chauhan",
-    name: "Khushbu Chauhan",
-    role: "Treasurer",
-    focusArea: "Finance & Team Management",
-    image: "/team/khushbu_chauhan_pic.png",
-    intro:
-      "I help manage finances and keep everything organized with a calm, detail-oriented approach.",
-    tagsTitle: "Skills",
-    tags: [
-      "Budget Planning",
-      "Accounting",
-      "Organization",
-      "Leadership"
-    ],
-
-    githubUrl: "https://github.com/chauhanayush1148-code",
-    linkedinUrl: "https://www.linkedin.com/in/khushbu-chauhan-076b4329a"
-  },
-  {
-    id: "aryan-tyagi",
-    name: "Aryan Tyagi",
-    role: "Promotional Head",
-    focusArea: "Full-Stack Development, AI & Community Outreach",
-    image: "/team/aryantyagi_pic.png",
-    intro:
-      "Full-stack developer passionate about building modern web applications and leveraging AI while driving TechSpace's outreach through creative campaigns and impactful community engagement.",
-    technologies: [
-      "React",
-      "Next.js",
-      "Node.js",
-      "MongoDB",
-      "Python",
-      "Tailwind CSS"
-
-    ],
-    portfolioUrl: "https://aryantyagi.in/",
-    linkedinUrl: "https://www.linkedin.com/in/aryan-tyagi-6b3190330/",
-    githubUrl: "https://github.com/aryann-tyagi",
-    favoriteStack: "Next.js + Tailwind CSS + Firebase",
-    currentlyLearning: "Advanced AI, TensorFlow & Growth Marketing"
-  },
-  {
-    id: "aman-yadav",
-    name: "Aman Kumar Yadav",
-    role: "Designer",
-    focusArea: "UI/UX Design & Visual Branding",
-    image: "/team/aman_yadav_pic.png",
-    intro:
-      "I design clean, engaging, and user-focused visuals that help bring TechSpace's ideas and identity to life.",
-    tagsTitle: "Skills",
-    tags: [
-      "UI/UX Design",
-      "Graphic Design",
-      "Brand Identity",
-      "Figma"
-    ],
-    githubUrl: "https://github.com/amanyadav2311",
-    linkedinUrl: "https://www.linkedin.com/in/aman-kumar-yadav-064b6338a/"
-  },
-  {
     id: "harsh-wardhan",
     name: "Harsh Wardhan",
-    role: "Mentor",
+    role: "Technical & Innovation Lead",
     focusArea: "Full-Stack Development & Software Engineering",
     image: "/team/harsh_pic.png",
     intro:
@@ -157,11 +97,29 @@ export const teamMembers: TeamMember[] = [
     currentlyLearning: "AI Agents, System Design & Flutter",
   },
   {
+    id: "khushbu-chauhan",
+    name: "Khushbu",
+    role: "Events & Operations Lead",
+    focusArea: "Finance & Team Management",
+    image: "/team/khushbu_chauhan_pic.png",
+    intro:
+      "I help manage finances, coordinate events, and keep operations running seamlessly with an organized, detail-oriented approach.",
+    tagsTitle: "Skills",
+    tags: [
+      "Event Management",
+      "Operations",
+      "Organization",
+      "Leadership"
+    ],
+    githubUrl: "https://github.com/chauhanayush1148-code",
+    linkedinUrl: "https://www.linkedin.com/in/khushbu-chauhan-076b4329a"
+  },
+  {
     id: "aryan-tailor",
     name: "Aryan Tailor",
-    role: "Mentor",
+    role: "Industry & External Relations Lead",
     focusArea: "AI/ML",
-    image: "team/aryantailor_pic.png",
+    image: "/team/aryantailor_pic.png",
     intro:
       "CS student passionate about Artificial Intelligence and Data Structures & Algorithms. Focused on building strong fundamentals and solving real problems.",
     tags: [
@@ -176,13 +134,12 @@ export const teamMembers: TeamMember[] = [
     favoriteStack: "Python",
     currentlyLearning: "Java",
   },
-
   {
-    id: "tathagat-aryan",
-    name: "Tathagat Aryan",
-    role: "Mentor",
+    id: "aryan-tathagat",
+    name: "Aryan Tathagat",
+    role: "Outreach & Membership Lead",
     focusArea: "Full-Stack Development",
-    image: "team/tathagat_pic.png",
+    image: "/team/tathagat_pic.png",
     intro:
       "Passionate Full-Stack Developer focused on building responsive, user-friendly web applications with modern technologies and clean design.",
     tagsTitle: "Technologies",
@@ -201,8 +158,45 @@ export const teamMembers: TeamMember[] = [
     linkedinUrl: "https://www.linkedin.com/in/tathagat-aryan-4993a1286",
     favoriteStack: "MERN",
     currentlyLearning: "MongoDB",
+  },
+  {
+    id: "aryan-tyagi",
+    name: "Aryan Tyagi",
+    role: "Content, Media & Communication Lead",
+    focusArea: "Full-Stack Development, AI & Community Outreach",
+    image: "/team/aryantyagi_pic.png",
+    intro:
+      "Full-stack developer passionate about building modern web applications and leveraging AI while driving TechSpace's outreach through creative campaigns and impactful community engagement.",
+    technologies: [
+      "React",
+      "Next.js",
+      "Node.js",
+      "MongoDB",
+      "Python",
+      "Tailwind CSS"
+    ],
+    portfolioUrl: "https://aryantyagi.in/",
+    linkedinUrl: "https://www.linkedin.com/in/aryan-tyagi-6b3190330/",
+    githubUrl: "https://github.com/aryann-tyagi",
+    favoriteStack: "Next.js + Tailwind CSS + Firebase",
+    currentlyLearning: "Advanced AI, TensorFlow & Growth Marketing"
+  },
+  {
+    id: "aman-yadav",
+    name: "Aman Yadav",
+    role: "Design & Creative Lead",
+    focusArea: "UI/UX Design & Visual Branding",
+    image: "/team/aman_yadav_pic.png",
+    intro:
+      "I design clean, engaging, and user-focused visuals that help bring TechSpace's ideas and identity to life.",
+    tagsTitle: "Skills",
+    tags: [
+      "UI/UX Design",
+      "Graphic Design",
+      "Brand Identity",
+      "Figma"
+    ],
+    githubUrl: "https://github.com/amanyadav2311",
+    linkedinUrl: "https://www.linkedin.com/in/aman-kumar-yadav-064b6338a/"
   }
-
-
-
 ];
