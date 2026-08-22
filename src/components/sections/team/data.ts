@@ -19,7 +19,7 @@ export const teamMembers: TeamMember[] = [
   {
     id: "anshul-yadav",
     name: "Anshul Yadav",
-    role: "Founder & Ex-President",
+    role: "Student Leader",
     focusArea: "Leadership, Community Building & Innovation",
     image: "/team/anshul_yadav_pic.jpeg",
     intro:
