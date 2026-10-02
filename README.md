@@ -208,4 +208,4 @@ TechSpace is built by students, for students! Contributions are welcomed from al
 
 This project is created for **TechSpace — SRM University Sonipat**. All rights reserved.
 
-last updated 2 october , 2026
+last updated 2 october , 2026 and made repo public
